@@ -9,7 +9,7 @@ export default defineConfig({
     rollupOptions:{
       external:['react-route-dom'],
     },
-  },
+  }
 
  
 });
