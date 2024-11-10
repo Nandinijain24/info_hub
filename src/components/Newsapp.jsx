@@ -17,9 +17,9 @@ const response =await fetch(`https://newsapi.org/v2/everything?q=${search}&apiKe
 useEffect(()=>{
 getData()
 },[])
-const handleInput=(e)=>{
-     console.log(e.target.value);
-     setSearch(e.target.value)
+const handleInput=(event)=>{
+     console.log(event.target.value);
+     setSearch(event.target.value)
 }
 const userInput=(event)=>{
 setSearch(event.target.value)
