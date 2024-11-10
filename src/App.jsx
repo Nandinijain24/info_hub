@@ -1,5 +1,6 @@
 import React from "react"
 import Newsapp from "./components/Newsapp"
+import './App.css';
 function App() {
   
 
