@@ -5,6 +5,7 @@ import { Route, Routes} from 'react-router-dom';
 import  './App.css'
 import { HashRouter } from 'react-router-dom';
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <HashRouter>
   <React.StrictMode>
