@@ -5,11 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base:'/info_hub/',
-  build:{
-    rollupOptions:{
-      external:['react-route-dom'],
-    },
-  }
+ 
 
  
 });
